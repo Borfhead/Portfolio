@@ -1,0 +1,141 @@
+#toolbar{
+    background-color: black;
+    color: white;
+    margin: auto;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+#social-wrapper{
+    background-color: black;
+    float: right;
+    margin: auto;
+    z-index: 8888;
+    position: fixed;
+    right: 0;
+}
+
+#social{
+    display: block;
+    float:right;
+    list-style: none;
+    margin: auto;
+    padding-right: 20px;
+}
+
+.facebook, .linkedin, .github{
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+#fb_icon, #in_icon, #gh_icon{
+    border-radius: 50%;
+    max-width: 86px;
+    height: 40px;
+    margin: auto;
+}
+
+#about{
+    font-size: 20px;
+}
+
+#recent-projects{
+    background-color: #d4e3ec;
+}
+
+#resume{
+    margin: auto;
+    background-color: white;
+}
+
+.top_of_page{
+    padding-top: 60px;
+}
+
+.btn{
+    float:right;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px;
+    background-color: #800000;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #c40000;
+}
+
+
+.title{
+    font-size: 35px;
+    text-align: left;
+    padding: 15px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+
+.sub_title{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 100;
+}
+
+.project_title{
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+}
+
+.project_description{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+
+.bottom_border{
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 30px;
+}
+
+.content_wrapper{
+    padding-left: 25%;
+    padding-right: 25%;
+    min-width: 300px;
+}
+
+.home-link, .home-link:visited{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: #f6f6f6;
+}
+
+div{
+    margin: auto;
+}
